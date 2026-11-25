@@ -1,0 +1,13 @@
+{
+  "name": "likha-chronicles-25d",
+  "version": "11.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Likha: Chronicles of the Spirits — 2.5D Action RPG modeled on Legend of Mana",
+  "scripts": {
+    "test": "node --no-warnings --experimental-strip-types --test tests/**/*.test.ts",
+    "build": "node --no-warnings scripts/build.mjs",
+    "dev": "node --no-warnings scripts/serve.mjs",
+    "start": "node --no-warnings scripts/serve.mjs"
+  }
+}

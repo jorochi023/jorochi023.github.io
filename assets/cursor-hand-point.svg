@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="gloveHi" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="55%" stop-color="#f8ebd1"/>
+      <stop offset="100%" stop-color="#d7be95"/>
+    </linearGradient>
+    <linearGradient id="goldCuff" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f5ce7a"/>
+      <stop offset="100%" stop-color="#9a6423"/>
+    </linearGradient>
+    <filter id="glowDrop" x="-20%" y="-20%" width="150%" height="150%">
+      <feDropShadow dx="1" dy="1.5" stdDeviation="1.2" flood-color="#f5ce7a" flood-opacity="0.55"/>
+    </filter>
+  </defs>
+  <g filter="url(#glowDrop)">
+    <!-- Golden wrist cuff highlight when hovering clickable or interactive action -->
+    <path d="M18.2 23.2 L25.6 18.2 L29.4 24.0 C27.2 26.8 24.3 28.6 21.1 29.4 Z"
+          fill="url(#goldCuff)" stroke="#241309" stroke-width="1.5" stroke-linejoin="round"/>
+    <circle cx="24.2" cy="24.1" r="1.5" fill="#fff7d6" stroke="#4a2a10" stroke-width="0.8"/>
+    <path d="M2.8 2.2
+             C4.3 1.5 6.3 2.2 8.2 4.1
+             L14.3 9.9
+             C15.2 8.8 16.6 8.6 17.7 9.6
+             C18.6 8.5 20.0 8.5 21.0 9.6
+             C21.9 8.8 23.3 9.2 24.1 10.4
+             L25.8 14.3
+             C26.4 16.1 25.7 18.2 24.2 19.5
+             L19.1 23.2
+             C17.1 24.5 14.7 24.2 12.8 22.6
+             L6.4 17.4
+             C4.8 16.1 5.2 14.1 6.8 13.6
+             C7.9 13.3 9.1 13.9 10.2 14.7
+             L10.8 14.0
+             L3.8 5.9
+             C2.5 4.4 2.0 2.7 2.8 2.2 Z"
+          fill="url(#gloveHi)" stroke="#241309" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/>
+    <path d="M14.4 10.2 L16.3 12.9 M17.6 10.0 L19.2 12.8 M20.9 10.1 L22.1 12.6"
+          stroke="#8e7454" stroke-width="1.15" stroke-linecap="round"/>
+  </g>
+</svg>
